@@ -1,0 +1,12 @@
+
+
+<form action="/quotes" method="POST">
+<ul>
+{{#each item}}
+<li>{{title}}</li>
+{{/each}}
+</ul>
+
+  <input type="text" placeholder="Title" name="title">
+  <button type="submit">Submit</button>
+</form>
